@@ -1,12 +1,36 @@
 html, body{
-    background:1E555C;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #F4D8CD;
     font-size: 16px;
-    color:F4D8CD ;
+    color: #F4D8CD;
 }
-#Container {
-    width: 88%;
-    max-width: 750px;
+#container {
+    background: #1E555C;
+    width: 90%;
+    max-width: 900px;
     background:1E555C;
-    margin: 10px;
-    padding: 10px;}
+    margin: auto;
+    border: 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    border-bottom-width: 0.5px;
+    border-bottom-color: #F4D8CD;
+    border-bottom-style:solid;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #1E555C;}
+.flex-container>div{
+    margin: auto;
+    padding: 20px;}
+
+img {
+    border-radius: 50%;
+    box-shadow: 50px 30px #F4D8CD;
+}
+
+ 
